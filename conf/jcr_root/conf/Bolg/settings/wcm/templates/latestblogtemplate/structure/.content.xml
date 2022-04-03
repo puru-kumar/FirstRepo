@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-03-31T23:25:19.751+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Bolg/settings/wcm/templates/latestblogtemplate"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2022-03-30T09:27:23.084+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-30T09:27:23.084+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <homepageheader
+                    jcr:created="{Date}2022-03-30T09:28:54.050+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-31T23:25:19.749+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/HomePageHeader"
+                    firstName="https://www.youtube.com/watch?v=0Ta8XTi_ah4"
+                    lastName="potter"/>
+            </responsivegrid>
+            <responsivegrid_1779704684
+                jcr:created="{Date}2022-03-30T09:27:29.385+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-30T09:27:29.385+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_1779704684>
+            <responsivegrid_1917366220
+                jcr:created="{Date}2022-03-30T09:27:35.952+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-30T09:27:35.952+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <homepagefooter
+                    jcr:created="{Date}2022-03-30T09:29:02.586+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-30T09:29:02.586+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/HomePagefooter"/>
+            </responsivegrid_1917366220>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

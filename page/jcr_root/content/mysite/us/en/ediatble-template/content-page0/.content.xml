@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-03-22T08:56:57.784+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="content page"
+        sling:resourceType="mysite/components/page"
+        bg="pink">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <carousel
+                        jcr:created="{Date}2022-03-15T15:48:06.768+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-15T15:48:06.768+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/carousel">
+                        <newcomponent
+                            jcr:created="{Date}2022-03-16T00:50:23.774+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-19T22:34:59.211+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="mysite/components/NewComponent"
+                            linkTo="heloo"/>
+                    </carousel>
+                    <newcomponent
+                        jcr:created="{Date}2022-03-17T11:19:47.251+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-22T08:56:57.775+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/NewComponent"/>
+                </container>
+                <container_2066864344
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
